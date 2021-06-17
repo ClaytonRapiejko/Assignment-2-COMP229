@@ -1,3 +1,12 @@
+/*Clayton Rapiejko
+Web Application Development
+
+Assignment 2: Authentication 
+301091341
+Centennial College: COMP229
+
+2021-06-16*/
+
 // installed 3rd party packages
 let createError = require('http-errors');
 let express = require('express');
