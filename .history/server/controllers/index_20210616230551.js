@@ -27,6 +27,14 @@ module.exports.displayContactPage = (req, res, next) => {
     res.render('contact', { title: 'Contact'});
 }
 
+module.exports.displayLoginPage = (req, res, next) => {
+    res.render('login', { title: 'Login'});
+}
+
+module.exports.displayRegisterPage = (req, res, next) => {
+    res.render('register', { title: 'register'});
+}
+
 
 module.exports.displayLoginPage = (req, res, next) => {
     // check if the user is already logged in
